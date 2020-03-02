@@ -1,0 +1,20 @@
+name: MineReset
+version: 1.0.0
+author: Cheerios32
+main: me.Cheerios32.MineReset.MineReset
+api-version: 1.14
+depend: [WorldEdit]
+softdepend: [PlaceholderAPI]
+commands:
+  mine:
+    description: "The command which does literally everything in this plugin."
+    usage: "/mine help"
+    
+permissions:
+  mine.create:
+    description: "Allows the creation, editing and deleting of mines."
+  mine.reset:
+    description: "Allows the force-resetting of mines."
+  mine.debug:
+    description: "Get all the debug info fed to your chat. Not very helpful and only takes effect if debug is enabled in config."
+    default: false

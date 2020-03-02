@@ -1,0 +1,4 @@
+#Should debug messages be sent? Leave off unless told to enable this when reporting an issue, as it may also have a significant performance impact.
+debug: false
+#Should mines tell everyone they're resetting in <x> seconds. TODO: make this a setting per mine.
+globalMineMsg: true
